@@ -24,4 +24,13 @@ app.get('/', (req, res) =>
   })
 );
 
+app.get('/hola', (req, res) =>
+  res.send({
+    curso: 'Analisis y Diseño 1',
+    nombre: 'Elmer Gustavo Sanchez Garcia',
+    carnet: 201801351,
+    aux: 'Manuel de Mata',
+  })
+);
+
 export default app;
